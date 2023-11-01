@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+}
+
+h1,h2,h3{
+    margin:0;
+}
+
+main{
+    max-width: 616px;
+}
+
+p{
+    margin:0;
+}
+
+.stat{
+    padding: 1rem;
+}
+
+.stat + .stat{
+    margin-top: .5rem;
+}
+
+.container{
+    padding: 2rem 1.5rem;
+}
+
+button{
+    border: none;
+    width: 100%;
+    background: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+
+.note{
+    width:50%;
+    height: 50%;
+    max-width:130px;
+    max-height: 130px;
+    border-radius: 50%;
+    background: hsl(252, 100%, 67%);
+    position: relative;
+    margin: 0 auto;
+}
+
+.ratio{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left: 0;
+    right:0;
+    width:fit-content;
+    margin: 0 auto;
+}
+
+.ratio :first-child{
+    font-size: 3.5rem;
+}
+
+.ratio :last-child{
+    text-align: center;
+}
+
+span img{
+    vertical-align: top;
+}
+
+.reaction{
+    background: hsla(0, 100%, 67%,50%);
+}
+
+.memory{
+    background: hsla(39,100%,56%,50%);
+}
+
+.verbal{
+    background: hsla(166,100%,37%,50%);
+}
+
+.visual{
+    background: hsla(234,85%,45%,50%);
+}
+
+.container:first-child{
+    text-align: center;
+}
+
+@media screen and (min-width: 616px) {
+    main{
+        font-size: 0;
+        margin: 0 auto;
+    }
+    .container{
+        display: inline-block;
+        width: 50%;
+        font-size: 1rem;
+    }
+}
