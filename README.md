@@ -1,6 +1,8 @@
 # Frontend Mentor - Results summary component solution
 
-This is a solution to the [./design/desktop-preview](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [results-summary-component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+
+![Design preview of the component](./design/desktop-preview.jpg)
 
 ## Table of contents
 
